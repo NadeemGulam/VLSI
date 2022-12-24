@@ -1,0 +1,5 @@
+set_input_delay -max 1 [get_ports "R"] 
+set_input_delay -max 1 [get_ports "en"] 
+set_input_delay -max 1 [get_ports "S"] 
+set_output_delay -max 1 [get_ports "Q"] 
+set_output_delay -max 1 [get_ports "Qbar"]
